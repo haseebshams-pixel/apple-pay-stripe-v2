@@ -98,7 +98,9 @@ function App() {
     <div className="App">
       <h2>Apple Pay </h2>
       {isSupported ? (
-        <button id="apple-pay-button" onClick={beginApplePay}></button>
+        <button id="apple-pay-button" onClick={beginApplePay}>
+          Pay
+        </button>
       ) : (
         <label>Not Supported</label>
       )}
