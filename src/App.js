@@ -81,7 +81,7 @@ function App() {
   }
   useEffect(() => {
     window.Stripe.setPublishableKey(
-      "pk_live_51JNtd5EEWahky04aHMAYMeda92xC0T3tGlRv1pxAlzMxVq9Dx26qRcGZoWg4UNlVBS2QH7P6iv4H5Nsz81lG1lpx00OsBH3ThR"
+      "pk_test_51JNtd5EEWahky04aXtU0xPztXhqL1Mhh3DkpornhvXZMEMNSSizYwx2LqsGDpmVcRmcRgntP9dC5oeCAJNxsb6zm00ICxZ3Nzm"
     );
 
     window.Stripe.applePay.checkAvailability(function (available) {
