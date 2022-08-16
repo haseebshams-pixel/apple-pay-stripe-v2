@@ -23,6 +23,7 @@
   height: 44px;
   padding: 10px 0;
   border-radius: 10px;
+  cursor: pointer;
 }
 .App-header {
   background-color: #282c34;
